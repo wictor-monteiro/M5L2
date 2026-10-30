@@ -7,7 +7,7 @@ engine.setProperty('volume', 0.9)  # Volume
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)  # 0 - masculino, 1 - feminino (dependendo do sistema)
 # Texto para vocalizar
-text = "Olá mundo"
+text = "Olá mundo, será?"
 # Vocalizando o texto
 engine.say(text)
 # Executando a síntese
